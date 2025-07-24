@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add this for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set a base background color for the light theme */
+body {
+  @apply bg-white;
+}
