@@ -3,6 +3,8 @@
 
 import React from 'react';
 import { Github, Linkedin, Twitter, Download } from 'lucide-react';
+import myimg from './activities/Adobe Express - file.png'
+import resumee from './activities/Gajnesh_Sharma_Resume_lastupdated.pdf'
 
 function Home() {
   return (
@@ -29,7 +31,7 @@ function Home() {
             </a>
           </div>
           <a 
-            href="/public/Gajnesh_Sharma_Resume_lastupdated.pdf" 
+            href={resumee}
             target="_blank" 
             download="Gajnesh-Sharma-Resume.pdf" 
             rel="noopener noreferrer" 
@@ -45,7 +47,7 @@ function Home() {
           <div className="relative w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px] bg-amber-100 rounded-full shadow-lg">
              <div className="relative w-full h-full rounded-full overflow-hidden">
                 <img 
-                  src="./src/assets/portrait/Adobe Express - file.png" 
+                  src= {myimg} 
                   alt="Gajnesh Sharma" 
                   className="absolute bottom-0 left-1/2 -translate-x-1/2 w-auto h-[110%] object-cover"
                 />

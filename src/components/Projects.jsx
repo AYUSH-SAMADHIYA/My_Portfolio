@@ -4,6 +4,15 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import homee from './activities/home.png'
+import detail3 from './activities/detail-3.png'
+import two from './activities/2.png'
+import r2 from './activities/r2.png'
+import prompt from './activities/prompt.png'
+import manual from './activities/manual.png'
+import three from './activities/3.png'
+
+
 
 const projects = [
   {
@@ -19,11 +28,11 @@ const projects = [
         ]
     },
     tags: ["React.js", "Node.js", "Express", "MongoDB Atlas", "Tailwind CSS", "JWT", "Framer Motion", "Multer"],
-    image: "./src/assets/portrait/3.png",
+    image: three,
     githubUrl: "https://github.com/AYUSH-SAMADHIYA/QuoraSphere",
     modalImages: [
-        "./src/assets/portrait/home.png", // Replace with your image
-        "./src/assets/portrait/detail-3.png", // Replace with your image
+        homee, // Replace with your image
+        detail3, // Replace with your image
     ]
   },
   {
@@ -39,11 +48,11 @@ const projects = [
         ]
     },
     tags: ["Android Studio", "Python", "TensorFlow", "Keras", "scikit-learn", "Matplotlib", "NumPy", "Pandas"],
-    image: "./src/assets/portrait/2.png",
+    image: two,
     githubUrl: "https://github.com/AYUSH-SAMADHIYA/Rash-Driving-Detector",
     modalImages: [
-        "./src/assets/portrait/2.png", // Replace with your image
-        "./src/assets/portrait/r2.png", // Replace with your image
+        two, // Replace with your image
+        r2, // Replace with your image
     ]
   },
   {
@@ -59,11 +68,11 @@ const projects = [
         ]
     },
     tags: ["NLP", "Flask", "Python", "HTML", "CSS"],
-    image: "./src/assets/portrait/prompt.png",
+    image: prompt,
     githubUrl: "https://github.com/AYUSH-SAMADHIYA/Portfolio-Developer",
     modalImages: [
-        "./src/assets/portrait/prompt.png", // Replace with your image
-        "./src/assets/portrait/Manual.png", // Replace with your image  
+        prompt, // Replace with your image
+        manual, // Replace with your image  
     ]
   }
 ];

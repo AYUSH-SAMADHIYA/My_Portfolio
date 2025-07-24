@@ -4,6 +4,11 @@
 import React, { useState, useEffect } from 'react';
 import { Megaphone, HeartPulse, Users, Puzzle, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import four from './activities/4.jpg'
+import five from './activities/5.jpg'
+import six from './activities/6.jpg'
+
+
 
 // --- User-configurable data ---
 
@@ -33,9 +38,9 @@ const activities = [
 
 // 2. Add the paths to your images here
 const activityImages = [
-    './src/assets/activities/6.jpg',
-    './src/assets/activities/4.jpg', 
-    './src/assets/activities/5.jpg', 
+    six,
+    four, 
+   five, 
     // './src/assets/activities/1.jpg'
 ];
 
