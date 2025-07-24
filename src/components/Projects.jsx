@@ -8,8 +8,8 @@ import homee from './activities/home.png'
 import detail3 from './activities/detail-3.png'
 import two from './activities/2.png'
 import r2 from './activities/r2.png'
-import prompt from './activities/prompt.png'
-import manual from './activities/manual.png'
+import prompt from './activities/Prompt.png'
+import manual from './activities/Manual.png'
 import three from './activities/3.png'
 
 
